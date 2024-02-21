@@ -1,5 +1,36 @@
-button {
-    background-color: rgb(216, 54, 143);
-    color: rgb(0, 0, 0);
-    border-color: rgb(95, 13, 91);
+body{
+    font-family: 'Courier New';
+    margin: 12%;
 }
+
+.user, .password{
+    display: flex;
+    align-items: center;
+    margin-bottom: 4%;
+    justify-content:center;
+}
+
+.bttn {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.login, .registro{
+    width: 185px;
+    height: 35px;
+    background-color: rgb(179, 17, 49);
+    color: white;
+    border-radius: 50px;
+    border: none;
+    font-family: 'Courier New';
+}
+
+input{
+    background-color: beige;
+    border: none;
+    width: 175px;
+    height: 22px;
+    font-family: 'Courier New';
+}
+
