@@ -1,17 +1,6 @@
-html{
-    font-family: 'Courier New', Courier, monospace;
-}
-
-h1{
+ion-col {
+    background-color: #000000;
+    border: solid 1px #fd0000;
+    color: #ffffff;
     text-align: center;
-}
-
-.input{
-    font-size: 300;
-}
-
-ion-item{
-    --background: rgb(250, 229, 229);
-    border-radius: 10px;
-    margin-bottom: 16px;
-}
+  }
