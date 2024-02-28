@@ -1,0 +1,17 @@
+html{
+    font-family: 'Courier New', Courier, monospace;
+}
+
+h1{
+    text-align: center;
+}
+
+.input{
+    font-size: 300;
+}
+
+ion-item{
+    --background: rgb(250, 229, 229);
+    border-radius: 10px;
+    margin-bottom: 16px;
+}
