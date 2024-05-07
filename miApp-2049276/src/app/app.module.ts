@@ -8,12 +8,12 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HttpClientModule } from '@angular/common/http';
 
+import { FormsModule } from '@angular/forms';
 import { ListaAlumnosComponent } from './lista-alumnos/lista-alumnos.component';
-import { ProductosComponent } from './productos/productos.component';
 
 @NgModule({
-  declarations: [AppComponent, ListaAlumnosComponent, ProductosComponent],
-  imports: [BrowserModule, IonicModule.forRoot(), AppRoutingModule, HttpClientModule],
+  declarations: [AppComponent, ListaAlumnosComponent],
+  imports: [BrowserModule, IonicModule.forRoot(), AppRoutingModule, HttpClientModule, FormsModule ],
   providers: [{ provide: RouteReuseStrategy, useClass: IonicRouteStrategy }],
   bootstrap: [AppComponent],
 })
